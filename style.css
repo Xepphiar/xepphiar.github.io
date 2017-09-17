@@ -18,7 +18,7 @@ header {
     position: absolute;
     bottom: 0;
     
-    background: linear-gradient(to bottom, rgba(0,0,0,0), black);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), black);
     
     color: white;
     font-family: 'Open Sans', sans-serif;
