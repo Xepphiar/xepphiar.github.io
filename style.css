@@ -50,8 +50,15 @@ header {
     border-radius: 10px;
 }
 
+.main iframe {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
 h2 {
     font-family: 'Open Sans', sans-serif;
     font-size: 36px;
 }
-
