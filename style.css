@@ -35,16 +35,23 @@ header {
 .page-author { font-size: 14px; }
 
 .main {
-    width: 100%;
     margin-left: calc(50% - 400px);
     margin-right: calc(50% - 400px);
 }
 
 .main p {
+    color: gray;
     font-family: 'Titillium Web', sans-serif;
+    font-size: 24px;
 }
 
-.h2 {
+.main img {
+    width: 800px;
+    border-radius: 10px;
+}
+
+h2 {
     font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
 }
 
