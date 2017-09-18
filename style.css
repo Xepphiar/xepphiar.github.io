@@ -27,9 +27,7 @@ html, body { margin: 0px; }
 
 .page-author { font-size: 14px; }
 
-.main {
-    margin: 2em calc(50% - 400px) 2em calc(50% - 400px);
-}
+.main { margin: 2em calc(50% - 400px) 2em calc(50% - 400px); }
 
 .main p {
     color: gray;
