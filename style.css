@@ -2,9 +2,41 @@
 
 html, body { margin: 0px; }
 
+@media (min-width: 800px) {
+    .intro {
+        height: 720px;
+    }
+    
+    header {
+        width: 800px;
+        padding: 2em calc(50% - 400px) 2em calc(50% - 400px);
+    }
+    
+    .main { margin: 2em calc(50% - 400px) 2em calc(50% - 400px); }
+    
+    .main img {
+        width: 800px;
+    }
+}
+
+@media (max-width: 800px) {
+    .intro {
+         height: 360px;
+    }
+    
+    header {
+        width: calc(100% - 4em);
+        padding: 2em;
+    }
+    
+    .main { margin: 2em; }
+    
+    .main img {
+        width: 100%;
+    }
+}
+
 .intro {
-    width: 100%;
-    height: 720px;
     position: relative;
     
     background-image: url("/Petrified%20Bunting.jpg");
@@ -14,7 +46,6 @@ html, body { margin: 0px; }
 }
 
 header {
-    width: 100%;
     position: absolute;
     bottom: 0;
     
@@ -22,22 +53,15 @@ header {
     
     color: white;
     font-family: 'Open Sans', sans-serif;
-    
-    padding: 2em;
-    padding-left: calc(50% - 400px);
-    padding-right: calc(50% - 400px);
 }
 
-.page-title { font-size: 48px; }
+.page-title {
+    font-size: 48px;
+}
 
 .page-description { font-size: 24px; }
 
 .page-author { font-size: 14px; }
-
-.main {
-    margin-left: calc(50% - 400px);
-    margin-right: calc(50% - 400px);
-}
 
 .main p {
     color: gray;
@@ -45,12 +69,9 @@ header {
     font-size: 24px;
 }
 
-.main img {
-    width: 800px;
-    border-radius: 10px;
-}
+.main img { border-radius: 10px; }
 
-.main iframe {
+.main video {
     display: block;
     margin: auto;
     padding: 10px;
