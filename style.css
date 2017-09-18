@@ -48,11 +48,6 @@ html, body { margin: 0px; }
     font-family: 'Open Sans', sans-serif;
 }
 
-.main .link-icon {
-    float: left;
-    width: 20%;
-}
-
 .main .link a, .main .link a:visited {
     color: #4080EE;
     font-weight: bold;
