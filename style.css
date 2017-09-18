@@ -5,8 +5,8 @@ html, body { margin: 0px; }
 .intro {
     position: relative;
     height: 720px;
-    background-image: url("resources/Petrified%20Bunting.jpg");
-    background-color: pink;
+    background-image: url(resources/Petrified%20Bunting.jpg);
+    background-color: #194466;
     background-size: cover;
     background-position: center;
 }
