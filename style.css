@@ -2,6 +2,20 @@
 
 html, body { margin: 0px; }
 
+h1, h2, h3 {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 { font-size: 36px; }
+
+h3 { font-size: 28px; }
+
+p {
+    color: gray;
+    font-family: 'Titillium Web', sans-serif;
+}
+
 .intro {
     position: relative;
     height: 720px;
@@ -33,15 +47,6 @@ html, body { margin: 0px; }
     font-family: 'Titillium Web', sans-serif;
     font-size: 24px;
 }
-
-.main h2, .main h3 {
-    color: black;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.main h2 { font-size: 36px; }
-
-.main h3 { font-size: 28px; }
 
 .main .link {
     width: 480px;
