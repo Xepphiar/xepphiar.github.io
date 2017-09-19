@@ -27,13 +27,21 @@ html, body { margin: 0px; }
 
 .page-author { font-size: 14px; }
 
-.main { margin: 2em calc(50% - 400px) 2em calc(50% - 400px); }
-
-.main p {
+.main {
+    margin: 2em calc(50% - 400px) 2em calc(50% - 400px);
     color: gray;
     font-family: 'Titillium Web', sans-serif;
     font-size: 24px;
 }
+
+.main h2, .main h3 {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main h2 { font-size: 36px; }
+
+.main h3 { font-size: 32px; }
 
 .main .link {
     width: 480px;
@@ -75,9 +83,4 @@ html, body { margin: 0px; }
     padding: 10px;
     border: 1px solid lightgray;
     border-radius: 10px;
-}
-
-.main h2 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 36px;
 }
