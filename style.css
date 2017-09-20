@@ -94,3 +94,24 @@ h4 {
     border: 1px solid lightgray;
     border-radius: 10px;
 }
+
+.difficulty {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background-color: lightgray;
+    background-size: contain;
+    transform: translate(0, 4px);
+}
+
+#easy { background-image: url(resources/icons/easy.png); }
+
+#normal { background-image: url(resources/icons/normal.png); }
+
+#hard { background-image: url(resources/icons/hard.png); }
+
+#insane { background-image: url(resources/icons/insane.png); }
+
+#expert { background-image: url(resources/icons/expert.png); }
+
+#expert-plus { background-image: url(resources/icons/expert_plus.png); }
