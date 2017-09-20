@@ -103,7 +103,7 @@ h4 {
     display: inline-block;
     background-color: lightgray;
     background-size: contain;
-    transform: translate(0, 4px);
+    transform: translate(0, 5px);
 }
 
 #easy { background-image: url(resources/icons/easy.png); }
