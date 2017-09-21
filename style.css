@@ -89,7 +89,7 @@ h4 {
 
 .main video, .main iframe {
     display: block;
-    margin: auto;
+    margin: 1em auto 1em auto;
     padding: 10px;
     border: 1px solid lightgray;
     border-radius: 10px;
